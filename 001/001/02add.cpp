@@ -4,6 +4,8 @@ int add(int a, int b) {
 	return a + b;
 }
 
+
+int i = 1;
 int main() {
 	printf("hello cpp");
 	MessageBox(0, NULL, NULL, MB_OK);
@@ -13,6 +15,7 @@ int main() {
 	int c = add(0x11, 0x22);
 	// 做了优化
 	
-	printf("%d", c);
+	int d = add(i, 0x22);
+	printf("c:%x, d:%x", c,d);
 	return 0;
 }
