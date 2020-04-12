@@ -1,0 +1,8 @@
+*/DEBUG/* 
+*/*/DEBUG/* 
+
+*.sdf
+*.sln
+*.opendb
+*.suo
+*.vcxproj*
